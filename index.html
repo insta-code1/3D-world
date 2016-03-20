@@ -54,6 +54,31 @@
             var camera, scene, renderer;
             var circle1, circle2;
 
+            function fade1(){
+                var change = document.getElementById('info1');
+                change.classList.remove('bounceInLeft');
+                change.classList.add('bounceOutLeft');
+            }
+
+            function fade2(){
+                var chane = document.getElementById('info2');
+                change.classList.remove('bounceInLeft');
+                change.classList.add('bounceOutLeft');   
+            }
+
+            function fade3(){
+                var chane = document.getElementById('info3');
+                change.classList.remove('bounceInLeft');
+                change.classList.add('bounceOutLeft');
+            }
+
+            function fade4(){
+                var change = document.getElementById('info4');
+                change.classList.remove('bounceInLeft');
+                change.classList.remove('bounceOutLeft');
+            }
+
+
             function init() {
                 camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000 );
                 controls = new THREE.DeviceOrientationControls( camera );
@@ -116,6 +141,10 @@
 
                     pic.addEventListener( 'click', function ( event ) {
                         console.log(event.target.id);
+                        if(event.target.id != "0"){
+                            var change = document.getElementById(
+                                'info'+event.target.id);
+                        }
                     }, false );
 
                     var object = new THREE.CSS3DObject( pic );

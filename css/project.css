@@ -39,3 +39,26 @@ body {
 p {
 	padding:  5px 10px;
 }
+#info3.panel{ 
+	background-color: #d1b3ce ; 
+}
+#info3 .head{ 
+	color: #eed8ec;
+	background: #714c6e;
+}
+#info3 p{ 
+	color: #584356; 
+}
+#info4.panel{
+	background-color: #f5c5a7 ;
+}
+info4 .head{
+	color: #f5c5a7;
+	background: #b65212;
+}
+info4 .head a{
+	color: #f5c5a7;
+}
+info4 p{
+	color: #b65212;
+}
