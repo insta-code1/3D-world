@@ -8,7 +8,34 @@ body {
 .menu {
     cursor: pointer;
 }
-.pic{
+.pic {
     width: 180px;
     height: 240px;
+}
+.hidden {
+	display: none;
+}
+.visible {
+	display: block;
+}
+.head {
+	height: 45px;
+}
+.head a {
+	display: inline-block;
+	float: left;
+	width: 10%;
+	padding: 10px 0 0 10px;
+	text-decoration: none;
+}
+.head h2 {
+	display: inline-block;
+	width: 70%;
+	margin: 0;
+	padding: 7px 10px 0 0 ;
+	float: right;
+	text-align: right;
+}
+p {
+	padding:  5px 10px;
 }
