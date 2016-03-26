@@ -5,18 +5,18 @@ body {
 	overflow: hidden;
 	font-family: helvetica, arial, sans-serif;
 }
+.hidden {
+	display: none;
+}
+.visible {
+	display: block;
+}
 .menu {
     cursor: pointer;
 }
 .pic {
     width: 180px;
     height: 240px;
-}
-.hidden {
-	display: none;
-}
-.visible {
-	display: block;
 }
 .head {
 	height: 45px;
@@ -39,7 +39,7 @@ body {
 p {
 	padding:  5px 10px;
 }
-#info3.panel{ 
+#info3 .panel hidden animated weather { 
 	background-color: #d1b3ce ; 
 }
 #info3 .head{ 
@@ -49,7 +49,7 @@ p {
 #info3 p{ 
 	color: #584356; 
 }
-#info4.panel{
+#info4 .panel hidden animated {
 	background-color: #f5c5a7 ;
 }
 #info4 .head{
