@@ -52,13 +52,13 @@ p {
 #info4.panel{
 	background-color: #f5c5a7 ;
 }
-info4 .head{
+#info4 .head{
 	color: #f5c5a7;
 	background: #b65212;
 }
-info4 .head a{
+#info4 .head a{
 	color: #f5c5a7;
 }
-info4 p{
+#info4 p{
 	color: #b65212;
 }
